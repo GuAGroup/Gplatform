@@ -53,6 +53,6 @@ fn main() {
         println!("File #{}: Seq = {}, TS = {}", i, seq, ts);
     }
 
-    println!("Signature (1st 8 bytes): {:02x?}", &signature[..8]);
+    println!("Signature: {:?}", signature);
     println!("--------------------------------");
 }
